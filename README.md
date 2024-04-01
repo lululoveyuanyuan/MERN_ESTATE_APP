@@ -1,0 +1,2 @@
+What is this Project?
+This project creates a real estate web application that allows users to search for properties based on their preferences. The application will display a list of properties that match the user's search criteria. The user can then view more details about a property and contact the real estate agent for more information. The application will also allow users to save properties to their favorites list and view them later.
