@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header className='bg-slate-200 shadow-md'>
-      <div className='flex justify-between items-center container mx-auto p-4'>
+      <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
           <span className='text-slate-800'>Selling</span>
           <span className='text-slate-600'>Sunset</span>
@@ -25,7 +25,10 @@ export default function Header() {
           <li className='hidden sm:inline text-slate-700 hover:underline'>About</li>
         </Link>
         <Link to='/sign-in'>
-          <li className='hidden sm:inline text-slate-700 hover:underline'>Sign in</li>
+          <li className='text-slate-700 hover:underline'>Sign in</li>
+        </Link>
+        <Link to='/sign-up'>
+          <li className='text-slate-700 hover:underline'>Sign up</li>
         </Link>
         </ul>
       </div>
