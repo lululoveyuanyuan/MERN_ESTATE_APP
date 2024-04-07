@@ -1,6 +1,7 @@
 import { set } from 'mongoose'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import OAuth from '../components/OAuth'
 
 export default function SignUp() {
   const [formData, setFormData] = useState({})
@@ -44,6 +45,7 @@ export default function SignUp() {
         <input type='email' placeholder='Email'  className='border p-2 rounded-md' id='email' onChange={handleChange}/>
         <input type='password' placeholder='Password'  className='border p-2 rounded-md' id='password' onChange={handleChange}/>
         <button disable={loading} type='submit' className='bg-blue-500 text-white p-2 rounded-md  hover:opacity-80'>{loading? 'Loading...' : 'Sign Up'}</button>
+      <OAuth/>
       </form>
       <div className="flex gap-5 mt-7">
         <p>Have an account?</p>
