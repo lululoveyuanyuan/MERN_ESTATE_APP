@@ -30,7 +30,7 @@ export default function Profile() {
   const [userListings, setUserListings] = useState([]);
   const dispatch = useDispatch();
 
-  // firebase storage
+  // firebase storage-- add this to firebase rules
   // allow read;
   // allow write: if
   // request.resource.size < 2 * 1024 * 1024 &&
