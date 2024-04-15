@@ -54,7 +54,7 @@ export default function Listing() {
     <main>
       {loading && <p className='text-center my-7 text-2xl'>Loading...</p>}
       {error && (
-        <p className='text-center my-7 text-2xl'>Something went wrong!</p>
+        <p className='text-center my-7 text-2xl'>Something went wrong..</p>
       )}
       {listing && !loading && !error && (
         <div>
